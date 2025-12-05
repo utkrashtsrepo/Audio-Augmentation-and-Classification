@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+models/
+checkpoints/
+saved_models/
+
+# Generated/Augmented audio files (exclude all generated files)
+augmented*.wav
+*_augmented.wav
+*_snr.wav
+*_semitones.wav
+*_stretch*.wav
+*_change*.wav
+*_plus*.wav
+*_minus*.wav
+volume_*.wav
+pitch_shift*.wav
+time_stretch*.wav
+speed_change*.wav
+white_noise*.wav
+car_noise*.wav
+environmental_noise*.wav
+babble*.wav
+room_ir.wav
+scale.wav
+original.wav
+friends_voice*.wav
+
+# Large dataset files (users should download separately)
+# Uncomment the following lines if you want to exclude dataset files:
+# ESC-50-master/audio/**/*.wav
+# content/ESC-50-master/audio/**/*.wav
+
+# Other audio formats
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.npy
+*.npz
+cache/
+*.cache
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Archives (if you want to exclude them)
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
